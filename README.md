@@ -10,6 +10,6 @@
 ---
 - Since 2019.06.30.
 - Writers:
-  - ![@EmjayAhn](https://github.com/emjayahn)
-  - ![@jaeseongyou](https://github.com/jaeseongyou)
-  - ![@donariumdebbie](https://github.com/donariumdebbie)
+  - [@EmjayAhn](https://github.com/emjayahn)
+  - [@jaeseongyou](https://github.com/jaeseongyou)
+  - [@donariumdebbie](https://github.com/donariumdebbie)
