@@ -5,4 +5,6 @@
 
 ---
 - Since 2019.06.30.
-- Collaborators:
+- Writers:
+  - ![@EmjayAhn](https://github.com/emjayahn)
+  - ![@jaeseongyou](https://github.com/jaeseongyou)
