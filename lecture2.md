@@ -49,6 +49,7 @@ while True:
 U와 V에서  해당하는 단어의 행만 업데이트 합니다.
 
 - <span style="color:blue">질문 01: 어떻게 특정 행만 골라서 업데이트 할 수 있나요?</span>
+- Debbie : 등장한 row의 gradient를 계산해서 matrix add, subtraction 으로 gradient update한다는 말인 것 같습니다. 
 - <span style="color:blue">질문 02: 윈도우 크기가 5일 때 매 배치에 대해서 V는 1 행 U는 5 행 비대칭적으로 학습되지 않을까요?</span>
 
 ##### 해결법2
@@ -56,7 +57,7 @@ U와 V에서  해당하는 단어의 행만 업데이트 합니다.
 단어 벡터에 대해서 해쉬를 보존합니다.
 
 - <span style="color:blue">질문 03: 이게 무슨 뜻일까요??</span>
-
+- Debbie : hash embedding이라는 게 있는데, feature를 제한된 숫자로 변환해주는 함수를 사용하는 방법이라고 합니다. python dict가 사용하는 hash와는 다른 개념이고, hash embedding이 여러 종류가 있고 Bloom Embedding등이 NLP에서 사용된다고 합니다. 
 
 
 ### Negative Sampling (SG)
@@ -155,3 +156,9 @@ WordSim353
 학습시간: 24 hrs
 
 데이터: Wikipedia
+
+
+
+### 
+- Debbie 질문 + (위의 질문 1,3에 답변은 https://eda-ai-lab.tistory.com/122?category=706160 참고하였습니다)
+- p14 수식 맨 오른쪽에 sigmoid안의 마이너스 이유 좀더 구체적으로?
